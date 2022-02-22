@@ -1,0 +1,84 @@
+body {
+	background: linear-gradient(-45deg, #83d3dd, #e6c25f, #92f77e, #82c4d4);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+ #defaultCanvas0{
+    margin-top: -605px;
+    padding: 12px;
+    margin-left: 500px;;
+} 
+#AddGrass{
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 70px;
+    background-color: rgb(33, 139, 0);
+    color:black;
+    display: block;
+
+
+}
+#AddGrassEater{
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 70px;
+    background-color: lightblue;
+    color: black;
+    display: block;
+}
+#AddPredator{
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 70px;
+    background-color: blue;
+    color: black;
+    display: block;
+}
+#AddMush{
+    margin-top: 5px;
+    border:none;
+    border-radius: 8px;
+    width: 120px;
+    height: 70px;
+    background-color: red;
+    color: black;
+    display: block;
+}
+#AddPoison{
+    margin-top: 5px;
+    border:none;
+    border-radius: 8px;
+    width: 120px;
+    height: 70px;
+    background-color:black;
+    color:white;
+    display: block;
+}
+
+.div1{
+  margin-top: 12px;
+  margin-left: 369px;
+  margin-bottom: -17px;
+}
+

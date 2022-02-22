@@ -4,7 +4,18 @@ var socket = io();
  side = 20;
 
 
-
+function AddGrass(){
+    
+}
+function AddGrassEater(){
+}
+function AddPredator(){
+}
+function AddMush(){
+}
+function AddPoison(){
+}
+   
 function setup() {
     createCanvas(30 * side, 30 * side);
     background('#acacac');
