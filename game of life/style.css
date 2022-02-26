@@ -19,7 +19,7 @@ body {
 
 
  #defaultCanvas0{
-    margin-top: -605px;
+    margin-top: -513px;
     padding: 12px;
     margin-left: 500px;;
 } 
@@ -32,8 +32,10 @@ body {
     background-color: rgb(33, 139, 0);
     color:black;
     display: block;
-
-
+}
+#AddGrass:hover{
+    box-shadow: 5px 5px 15px 5px rgb(117, 243, 86), -9px 5px 15px 5px rgb(191, 238, 82,) -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px rgb(36, 100, 42), 12px 10px 15px 7px rgb(20, 235, 102), -10px 10px 15px 7px rgb(226, 255, 97), -10px -7px 27px 1px rgb(70, 145, 92), -43px -29px 5px 6px rgba(46, 148, 54, 0); 
+    box-shadow: 5px 5px 15px 5px rgb(117, 243, 86), -9px 5px 15px 5px rgb(191, 238, 82), -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px rgb(77, 175, 102), 12px 10px 15px 7px rgb(92, 173, 89), -10px 10px 15px 7px rgb(103, 211, 70), -10px -7px 27px 1px rgb(42, 201, 10), -43px -29px 5px 6px rgba(49, 134, 28, 0);
 }
 #AddGrassEater{
     margin-top: 5px;
@@ -44,6 +46,8 @@ body {
     background-color: lightblue;
     color: black;
     display: block;
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset 18px -7px 10px 6px rgba(201,11,230,0); 
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset 18px -7px 10px 6px rgba(201,11,230,0);
 }
 #AddPredator{
     margin-top: 5px;
@@ -54,6 +58,8 @@ body {
     background-color: blue;
     color: black;
     display: block;
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset 18px -7px 10px 6px rgba(201,11,230,0); 
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset 18px -7px 10px 6px rgba(201,11,230,0);
 }
 #AddMush{
     margin-top: 5px;
@@ -64,6 +70,8 @@ body {
     background-color: red;
     color: black;
     display: block;
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset 18px -7px 10px 6px rgba(201,11,230,0); 
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset 18px -7px 10px 6px rgba(201,11,230,0);
 }
 #AddPoison{
     margin-top: 5px;
@@ -74,11 +82,27 @@ body {
     background-color:black;
     color:white;
     display: block;
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset 18px -7px 10px 6px rgba(201,11,230,0); 
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset 18px -7px 10px 6px rgba(201,11,230,0);
+}
+#Restart{
+    background-color:white;
+    color: black;
+    border-radius: 8px;
+    margin-top: 5px;
+    border:none;
+    width: 120px;
+    height: 70px;
+    display: block;
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset 18px -7px 10px 6px rgba(201,11,230,0); 
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, inset 18px -7px 10px 6px rgba(201,11,230,0);
+    
 }
 
+
 .div1{
-  margin-top: 12px;
-  margin-left: 369px;
-  margin-bottom: -17px;
+  margin-top: 11px;
+  margin-left: 374px;
+  margin-bottom: -28px;
 }
 

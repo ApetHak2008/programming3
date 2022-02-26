@@ -1,7 +1,5 @@
 var socket = io();
-
-
- side = 20;
+side = 20;
 
 
 function AddGrass(){
@@ -14,6 +12,8 @@ function AddPredator(){
 function AddMush(){
 }
 function AddPoison(){
+}
+function Restart(){
 }
    
 function setup() {
