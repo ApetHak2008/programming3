@@ -1,0 +1,103 @@
+body{
+    background:url("img/1234.jpg") ;
+}
+ #defaultCanvas0{
+    margin-top: -580px;
+    padding: 12px;
+    margin-left: 640px;;
+} 
+#AddGrass{
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 70px;
+    background-color: rgb(33, 139, 0);
+    color:black;
+    display: block;
+}
+#AddGrass:hover{
+    box-shadow: 5px 5px 15px 5px rgb(117, 243, 86), -9px 5px 15px 5px rgb(191, 238, 82,) -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px rgb(36, 100, 42), 12px 10px 15px 7px rgb(20, 235, 102), -10px 10px 15px 7px rgb(226, 255, 97), -10px -7px 27px 1px rgb(70, 145, 92), -43px -29px 5px 6px rgba(46, 148, 54, 0); 
+    box-shadow: 5px 5px 15px 5px rgb(117, 243, 86), -9px 5px 15px 5px rgb(191, 238, 82), -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px rgb(77, 175, 102), 12px 10px 15px 7px rgb(92, 173, 89), -10px 10px 15px 7px rgb(103, 211, 70), -10px -7px 27px 1px rgb(42, 201, 10), -43px -29px 5px 6px rgba(49, 134, 28, 0);
+}
+#AddGrassEater{
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 70px;
+    background-color: lightblue;
+    color: black;
+    display: block;
+}
+#AddGrassEater:hover{
+        box-shadow: 5px 5px 15px 5px rgb(85, 252, 252), -9px 5px 15px 5px rgb(42, 218, 224) -7px -5px 15px 5px #38b1c7, 12px -5px 15px 5px rgb(62, 189, 194), 12px 10px 15px 7px rgb(51, 108, 116), -10px 10px 15px 7px rgb(38, 230, 255), -10px -7px 27px 1px rgb(70, 124, 145), -43px -29px 5px 6px rgba(46, 148, 54, 0); 
+        box-shadow: 5px 5px 15px 5px rgb(92, 216, 210), -9px 5px 15px 5px rgb(82, 194, 238), -7px -5px 15px 5px #85fbff, 12px -5px 15px 5px rgb(36, 187, 233), 12px 10px 15px 7px rgb(5, 191, 216), -10px 10px 15px 7px rgb(93, 200, 214), -10px -7px 27px 1px rgb(81, 226, 226), -43px -29px 5px 6px rgba(49, 134, 28, 0);
+}
+
+#AddPredator{
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 70px;
+    background-color: blue;
+    color: black;
+    display: block;
+}
+
+#AddPredator:hover{
+    box-shadow: 5px 5px 15px 5px rgb(25, 39, 243), -9px 5px 15px 5px rgb(0, 17, 255) -7px -5px 15px 5px #1459da, 12px -5px 15px 5px rgb(9, 99, 202), 12px 10px 15px 7px rgb(0, 89, 255), -10px 10px 15px 7px rgb(36, 57, 177), -10px -7px 27px 1px rgb(18, 16, 141), -43px -29px 5px 6px rgba(46, 148, 54, 0); 
+    box-shadow: 5px 5px 15px 5px rgb(41, 76, 228), -9px 5px 15px 5px rgb(38, 0, 177), -7px -5px 15px 5px #3309f0, 12px -5px 15px 5px rgb(43, 46, 250), 12px 10px 15px 7px rgb(29, 32, 161), -10px 10px 15px 7px rgb(16, 73, 160), -10px -7px 27px 1px rgb(37, 93, 245), -43px -29px 5px 6px rgba(49, 134, 28, 0);
+}
+#AddMush{
+    margin-top: 5px;
+    border:none;
+    border-radius: 8px;
+    width: 120px;
+    height: 70px;
+    background-color: red;
+    color: black;
+    display: block;
+}
+#AddMush:hover{
+    box-shadow: 5px 5px 15px 5px rgb(243, 25, 25), -9px 5px 15px 5px rgb(173, 12, 0) -7px -5px 15px 5px #ff3333, 12px -5px 15px 5px rgb(126, 0, 0), 12px 10px 15px 7px rgb(197, 26, 26), -10px 10px 15px 7px rgb(255, 19, 19), -10px -7px 27px 1px rgb(201, 14, 14), -43px -29px 5px 6px rgba(46, 148, 54, 0); 
+    box-shadow: 5px 5px 15px 5px rgb(116, 29, 29), -9px 5px 15px 5px rgb(151, 13, 13), -7px -5px 15px 5px #941616, 12px -5px 15px 5px rgb(155, 47, 47), 12px 10px 15px 7px rgb(146, 10, 10), -10px 10px 15px 7px rgb(189, 0, 0), -10px -7px 27px 1px rgb(184, 33, 33), -43px -29px 5px 6px rgba(49, 134, 28, 0);
+}
+#AddPoison{
+    margin-top: 5px;
+    border:none;
+    border-radius: 8px;
+    width: 120px;
+    height: 70px;
+    background-color:black;
+    color:white;
+    display: block;
+}
+#AddPoison:hover{
+    box-shadow: 5px 5px 15px 5px rgb(0, 0, 0), -9px 5px 15px 5px rgb(0, 0, 0) -7px -5px 15px 5px #000000, 12px -5px 15px 5px rgb(0, 0, 0), 12px 10px 15px 7px rgb(0, 0, 0), -10px 10px 15px 7px rgb(0, 0, 0), -10px -7px 27px 1px rgb(0, 0, 0), -43px -29px 5px 6px rgba(46, 148, 54, 0); 
+    box-shadow: 5px 5px 15px 5px rgb(0, 0, 0), -9px 5px 15px 5px rgb(0, 0, 0), -7px -5px 15px 5px #000000, 12px -5px 15px 5px rgb(0, 0, 0), 12px 10px 15px 7px rgb(0, 0, 0), -10px 10px 15px 7px rgb(53, 53, 53), -10px -7px 27px 1px rgb(0, 0, 0), -43px -29px 5px 6px rgba(49, 134, 28, 0);
+
+}
+#Restart{
+    background-color:white;
+    color: black;
+    border-radius: 8px;
+    margin-top: 5px;
+    border:none;
+    width: 120px;
+    height: 70px;
+    display: block;
+}
+
+#Restart:hover{
+    box-shadow: 5px 5px 15px 5px rgb(236, 236, 236), -9px 5px 15px 5px rgb(212, 212, 212) -7px -5px 15px 5px #d3d3d3, 12px -5px 15px 5px rgb(243, 243, 243), 12px 10px 15px 7px rgb(238, 238, 238), -10px 10px 15px 7px rgb(77, 77, 77), -10px -7px 27px 1px rgb(236, 236, 236), -43px -29px 5px 6px rgba(46, 148, 54, 0); 
+    box-shadow: 5px 5px 15px 5px rgb(122, 122, 122), -9px 5px 15px 5px rgb(255, 255, 255), -7px -5px 15px 5px #919191, 12px -5px 15px 5px rgb(184, 184, 184), 12px 10px 15px 7px rgb(209, 209, 209), -10px 10px 15px 7px rgb(243, 243, 243), -10px -7px 27px 1px rgb(255, 255, 255), -43px -29px 5px 6px rgba(49, 134, 28, 0);
+
+}
+
+.div1{
+  margin-top: 11px;
+  margin-left: 490px;
+  margin-bottom: -22px;
+}
