@@ -101,3 +101,37 @@ body{
   margin-left: 490px;
   margin-bottom: -22px;
 }
+#icon{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 68%;
+    top: 7%;
+    
+}
+
+.p1{
+    color:#fff;
+    position: absolute;
+    top: 7%;
+}
+.p2{
+    color:#fff;
+    position: absolute;
+    top: 14%;
+}
+.p3{
+    color:#fff;
+    position: absolute;
+    top: 21%;
+}
+.p4{
+    color:#fff;
+    position: absolute;
+    top: 28%;
+}
+h1{
+    color:#fff;
+    position: absolute;
+    top:0.5%;
+}

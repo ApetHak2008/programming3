@@ -69,6 +69,8 @@ io.sockets.emit('send matrix', matrix);
  mushArr = []
  poisonArr = []
 
+weath = "winter";
+
 const Grass = require("./Grass");
 const GrassEater = require("./GrassEater");
 const Predator = require("./Predator");
@@ -197,6 +199,23 @@ function Restart() {
     }
     io.sockets.emit("send matrix", matrix);
 }
+
+function weather() {
+    if (weath == "winter") {
+        weath = "spring"
+    }
+    else if (weath == "spring") {
+        weath = "summer"
+    }
+    else if (weath == "summer") {
+        weath = "autumn"
+    }
+    else if (weath == "autumn") {
+        weath = "winter"
+    }
+    io.sockets.emit('weather', weath)
+}
+setInterval(weather,3000)
 
 io.on('connection', function(socket) {
     createObject();

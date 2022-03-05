@@ -31,8 +31,51 @@
         <button id="AddPoison" class="div2" onclick="AddPoison()">Add Poison</button> <br>
         <button id="Restart" class="div2" onclick="Restart()">Restart</button> <br>
     </div>  
+  <div class="right col">
+      <img src="./img/vlm.png" id="icon">
+    </div>
+    <div class="audio">
+      <audio id="mySong">
+        <source src="img/music.mp3"  type="audio/mp3">
+      </audio>
+    </div>
     
-    
+    <script>
+    var mySong = document.getElementById("mySong")
+    var icon = document.getElementById("icon")
+
+    icon.onclick = function(){
+      if(mySong.paused){
+        mySong.play()
+        icon.src = "img/nvlm.png";
+      }else{
+        mySong.pause()
+        icon.src = "img/vlm.png"
+      }
+    }
+    </script>
+    <h1>ՆԿԱՐԱԳՐՈՒԹՅՈՒՆ</h1>
+    <div class="p1">
+   <p>🌿- սա Grass-ն է(խոտը)նա ոչ մեկի չի ուտում,
+     <br>
+     ուղղակի բազմանում է,բայց նրան ուտում են</p1> 
+    </div>
+    <div class="p2">
+    <p>🦋- սա GrassEater-ն է(խոտակերը)
+      <br>
+      նա բազմանում է և ուտում խոտը</p>
+    </div>
+    <div class="p3">
+      <p>🔵- սա Predator-ն է(գիշատիչը)
+        <br>
+        նա ուտում է խոտին և խոտակերին</p>
+      </div>
+      <div class="p4">
+        <p>🍄- սա Mush-ն է(սունկը) նա չի բազմանում,
+          <br>
+          նրան ուտելիս ստանում ես էներգիա</p>
+        </div>
+          <p></p>
 </div> 
 
     <!-- Optional JavaScript; choose one of the two! -->
